@@ -1,0 +1,505 @@
+body
+{
+    background-image: url(frontpage.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: calc(100);
+}
+/*styles for button 01*/
+button01
+{
+    padding-right: 5px;
+    float: right;
+    background-color: #cbed7b;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 12px;
+}
+button01:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+button01 span 
+{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.25s;
+}
+button01 span:after 
+{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.25s;
+}
+button01:hover span 
+{
+    padding-right: 25px;
+}
+button01:hover span:after 
+{
+    opacity: 1;
+    right: 0;
+}
+/*styles for button 02*/
+button02
+{
+    padding-right: 5px;
+    float: right;
+    background-color: #6feab1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 12px;
+}
+button02:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+button02 span 
+{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.25s;
+}
+button02 span:after 
+{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.25s;
+}
+button02:hover span 
+{
+    padding-right: 25px;
+}
+button02:hover span:after 
+{
+    opacity: 1;
+    right: 0;
+}
+/*styles for button 03*/
+button03
+{
+    float: right;
+    background-color: #e8abd7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 12px;
+}
+button03:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+button03 span 
+{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.25s;
+}
+button03 span:after 
+{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.25s;
+}
+button03:hover span 
+{
+    padding-right: 25px;
+}
+button03:hover span:after 
+{
+    opacity: 1;
+    right: 0;
+}
+/*styles for button 04*/
+button04
+{
+    padding-right: 5px;
+    float: right;
+    background-color: #ff4141;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 12px;
+}
+button04:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+button04 span 
+{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.25s;
+}
+button04 span:after 
+{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.25s;
+}
+button04:hover span 
+{
+    padding-right: 25px;
+}
+button04:hover span:after 
+{
+    opacity: 1;
+    right: 0;
+}
+/*style for title*/
+.offset-header {
+    font-family: cursive;
+    font-style: oblique;
+    color: rgb(255, 249, 67);
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 65px;
+    letter-spacing: -0.02em;
+    max-width: 750px;
+    margin: 10px 0;
+    text-shadow: #ff4141;
+    }
+  
+    .offset-header-odd,
+    .offset-header-even {
+      display: block;
+      animation-name: slideUp;
+      animation-duration: 3s;
+      animation-timing-function: ease-in;
+    }
+    .offset-header-odd {
+      text-align: left;
+      animation-delay: 0s;
+      animation-fill-mode: forwards;
+    }
+    .offset-header-even {
+      text-align: right;
+      animation-delay: 150ms;
+      animation-fill-mode: both;
+    }
+  
+    @keyframes slideUp {
+      0%,
+      50% {
+        transform: translateY(100%);
+        opacity: 0;
+      }
+       
+      60%,
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      
+      }
+    }
+    /*style for paragraph01*/
+    .para1
+    {
+        color: bisque;
+        font-size: 30px;
+        line-height: 30px;
+        font-family: Haettenschweiler;
+        font-style: initial;
+    }
+    /*style for image slide show 01*/
+    .slideshowcontainer {
+        float: right;
+        width: 600px;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        top: 30px;
+        border-style: solid;
+        border-width: 10px;
+        border-color: rgb(0, 0, 0);
+        border-radius: 15px;
+    }
+    
+    .imagecontainer {
+        width: 1800px;
+        height: 400px;
+        clear: both;
+        position: relative;
+        -webkit-transition: all 3s;
+        -moz-transition: all 3s;
+        -o-transition: all 3s;
+        -ms-transition: all 3s;
+        transition: all 3s;
+        transform: translateX(0px);
+        animation: scroller 16s infinite;
+    }
+    
+    @keyframes scroller {
+        0% {
+            transform: translateX(0);
+        }
+        31.25% {
+            transform: translateX(0);
+        }
+        50% {
+            transform: translateX(-600px);
+        }
+        81.25% {
+            transform: translateX(-600px);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+    
+    .slideshowimage {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+    }
+    
+    #slideshowimage-1:target ~ .imagecontainer {
+        animation: none;
+        transform: translateX(0px);
+    }
+    
+    #slideshowimage-2:target ~ .imagecontainer {
+        animation: none;
+        transform: translateX(-600px);
+    }
+    
+    .buttoncontainer {
+        position: relative;
+        top: -20px;
+    }
+    
+    .butt {
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+        border-radius: 10px;
+        background-color: darkgray;
+        -webkit-transition: background-color 0.25s;
+        -moz-transition: background-color 0.25s;
+        -o-transition: background-color 0.25s;
+        -ms-transition: background-color 0.25s;
+        transition: background-color 0.25s;
+    }
+    
+    .butt:hover {
+        background-color: gray;
+    }
+    /*style for paragraph01*/
+.para2
+{
+    color: bisque;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: Haettenschweiler;
+    font-style: initial;
+    
+}
+/*style for image slide show 02*/
+.slideshowcontainer2 {
+    float: left;
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    top: 30px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 15px;
+}
+    
+.imagecontainer2 {
+    width: 1800px;
+    height: 300px;
+    clear: both;
+    position: relative;
+    -webkit-transition: all 3s;
+    -moz-transition: all 3s;
+    -o-transition: all 3s;
+    -ms-transition: all 3s;
+    transition: all 3s;
+    transform: translateX(0px);
+    animation: scroller 16s infinite;
+}
+    
+@keyframes scroller {
+    0% {
+        transform: translateX(0);
+    }
+    31.25% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-600px);
+    }
+    81.25% {
+        transform: translateX(-600px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+    
+.slideshowimage {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+    
+#slideshowimage-1:target ~ .imagecontainer2 {
+    animation: none;
+    transform: translateX(0px);
+}
+    
+#slideshowimage-2:target ~ .imagecontainer2 {
+    animation: none;
+    transform: translateX(-500px);
+}
+    
+.buttoncontainer2 {
+    position: relative;
+    top: -20px;
+}
+    
+.butt2 {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background-color: darkgray;
+    -webkit-transition: background-color 0.25s;
+    -moz-transition: background-color 0.25s;
+    -o-transition: background-color 0.25s;
+    -ms-transition: background-color 0.25s;
+    transition: background-color 0.25s;
+    padding-right: 10px;
+}
+    
+.butt2:hover {
+    background-color: gray;
+}
+   /*style for paragraph03*/
+   .para3
+   {
+      color: rgb(247, 59, 144);
+      font-size: 30px;
+      line-height: 30px;
+      font-family: Haettenschweiler;
+      font-style: initial;
+   }
+   .btn {
+    border-radius: 5px;
+    padding: 15px 55px;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 20px;
+    color: #ffffff;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .btn:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+  }
+  
+  
+  .green {
+  
+    background-color: #ffffff;
+    box-shadow: 3px 5px 5px #ff7d7d;
+    border-radius: 2px;
+    transition: all 1s ease;
+    transform: scale(1);
+    background-image: 
+  }
+  
+  .green:hover {
+    /*  Making button bigger on hover  */
+    transform: scale(1.5) perspective(1px)
+  }
+
+  .navbar__btn {
+    position: relative;
+    font-size: 1.5rem;
+    color: #fff;
+    display: inline-block;
+    margin-right: 7rem;
+    padding-top: .5rem;
+    color:black;
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+  }
+  
+  .navbar__btn:after {
+    margin-top: .3rem;
+    display: block;
+    content: " ";
+    border-bottom: solid 2px #ff0000;
+    transform: scaleX();
+    transform-origin:  0% 100%;
+    transition: all .5s ease-in-out;
+  }
+  
+  .navbar__btn:hover:after  {
+    transform:scaleX(1.3);
+  }
+  
+  .navbar__btn:hover .navbar__btn--i {
+    right: -20px;
+  }
+  
+  .navbar__btn--i {
+    position: absolute;
+    top: 5px;
+    right:-10px;
+    line-height:50px;
+    transition: all .3s linear 0s;
+    vertical-align:middle;
+    margin-top:15px;
+  }

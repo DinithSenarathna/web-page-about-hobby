@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About me</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+</style>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+  }
+
+  .card {
+    height: 500px;
+    width: 440px;
+    display: flex;
+    justify-content: center;
+    background-color: yellowgreen;
+    position: relative;
+    overflow: hidden;
+    box-shadow:
+      0em 0.6em 0.5em rgba(0, 0, 0, 0.3);
+  }
+
+  .card {
+    height: 500px;
+    width: 440px;
+    display: flex;
+    align-items: center;
+    /* Changed from justify-content */
+    justify-content: center;
+    /* Changed from display */
+    background-color: yellowgreen;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0em 0.6em 0.5em rgba(0, 0, 0, 0.3);
+  }
+
+
+  .dp {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url(cv\ pic.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.5s;
+  }
+
+  .card:hover .dp {
+    width: 500px;
+    height: 0px;
+    border-radius: 50%;
+  }
+
+  .card:hover span {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  .card:hover .content {
+    opacity: 1;
+    transform: translateY(20px);
+  }
+
+  .connections {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .connections span {
+    display: block;
+    height: 100px;
+    width: 100px;
+    color: white;
+    margin: 0.3em;
+    padding: 0.27em;
+    font-size: 2em;
+    background-color: slateblue;
+    border-radius: 50%;
+    font-family: "Material Icons";
+    opacity: 0;
+    transition: all 0.6s var(--delay);
+    transform: translateY(50px);
+  }
+
+  .content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateY(40px);
+    opacity: 0;
+    transition: all 0.6s 0.1s;
+    font-size: 1.5em;
+  }
+
+  .connections span:nth-child(1) {
+    --delay: 0ms;
+  }
+
+  .connections span:nth-child(2) {
+    --delay: 200ms;
+  }
+
+  .connections span:nth-child(3) {
+    --delay: 400ms;
+  }
+
+  .abc {
+    padding-right: 5px;
+    float: right;
+    background-color: #cbed7b;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 12px;
+  }
+
+  .abc:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .abc {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    /* Other styles */
+  }
+
+  .abc span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.25s;
+  }
+
+  .abc span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.25s;
+  }
+
+  .abc:hover span {
+    padding-right: 25px;
+  }
+
+  .abc:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+</style>
+</head>
+
+<body>
+  <button class="abc" style="vertical-align: middle; float:right;"><a href="miniproject.html"
+      target="_top"><span><strong>Back
+          to Home</strong></span></a></button>
+  <div class="card">
+    <div class="dp"></div>
+    <div class="content">
+      <h2>DINITH</h2>
+      <p>senarathna</p>
+    </div>
+    <div class="connections">
+      <span class="material-icons-outlined">
+        person
+      </span>
+      <span class="material-icons-outlined">
+        email
+      </span>
+      <span class="material-icons-outlined">
+        phone
+      </span>
+    </div>
+  </div> 
+
+</body>
+
+</html>

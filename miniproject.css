@@ -1,0 +1,252 @@
+/*background image*/
+body
+{
+    background-image: url(backgroundbiriyani.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: calc(100);
+}
+/*styles for button 01*/
+button01
+{
+    padding-right: 5px;
+    float: right;
+    background-color: #cbed7b;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 12px;
+}
+button01:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+button01 span 
+{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.25s;
+}
+button01 span:after 
+{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.25s;
+}
+button01:hover span 
+{
+    padding-right: 25px;
+}
+button01:hover span:after 
+{
+    opacity: 1;
+    right: 0;
+}
+/*styles for button 02*/
+button02
+{
+    padding-right: 5px;
+    float: right;
+    background-color: #6feab1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 12px;
+}
+button02:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+button02 span 
+{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.25s;
+}
+button02 span:after 
+{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.25s;
+}
+button02:hover span 
+{
+    padding-right: 25px;
+}
+button02:hover span:after 
+{
+    opacity: 1;
+    right: 0;
+}
+/*styles for button 03*/
+button03
+{
+    float: right;
+    background-color: #e8abd7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 12px;
+}
+button03:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+button03 span 
+{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.25s;
+}
+button03 span:after 
+{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.25s;
+}
+button03:hover span 
+{
+    padding-right: 25px;
+}
+button03:hover span:after 
+{
+    opacity: 1;
+    right: 0;
+}
+/*styles for button 04*/
+button04
+{
+    padding-right: 5px;
+    float: right;
+    background-color: #ff4141;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 12px;
+}
+button04:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+button04 span 
+{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.25s;
+}
+button04 span:after 
+{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.25s;
+}
+button04:hover span 
+{
+    padding-right: 25px;
+}
+button04:hover span:after 
+{
+    opacity: 1;
+    right: 0;
+}
+/*styles for WELCOME*/
+h1
+{
+    text-align: left;
+    font-family: impact;
+    font-size: 200px;
+    font-weight: 100;
+    background-image: url(idiaappa.jpg);
+    text-decoration: dotted;
+    background-size: 500px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-repeat: repeat;
+    color: transparent;
+}
+/*style  for h2*/
+p2
+{
+    font-family: cursive;
+    font-size: 45px;
+    color: antiquewhite;
+}
+/*style for button 05*/
+button05
+{
+    float: right;
+    height: 1cm;
+    width: 5cm;
+    background-color: #fff200;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 34px;
+    border-radius: 12px;
+}
+button05:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+button05 span 
+{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+button05 span:after 
+{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+button05:hover span 
+{
+    padding-right: 25px;
+}
+button05:hover span:after 
+{
+    opacity: 1;
+    right: 0;
+}
+
+    

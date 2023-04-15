@@ -1,0 +1,154 @@
+.body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(nature.gif);
+}
+/*styles for button 01*/
+button01
+{
+    padding-right: 5px;
+    float: right;
+    background-color: #cbed7b;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 12px;
+}
+button01:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+button01 span 
+{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.25s;
+}
+button01 span:after 
+{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.25s;
+}
+button01:hover span 
+{
+    padding-right: 25px;
+}
+button01:hover span:after 
+{
+    opacity: 1;
+    right: 0;
+}
+/* Comment box */
+.comment-box {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 350px;
+    padding-top: 10px;
+    background-color: transparent;
+    box-shadow: 1px 1px 5px 5px rgba(255, 255, 255, 0.908);
+}
+
+/* Comments */
+.comment-container {
+    margin-top: 20px;
+}
+
+.comment {
+    border: 1px transparent;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment-name {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.comment-date {
+    font-size: 12px;
+}
+
+.comment-text {
+    margin-top: 5px;
+}
+
+/* Comment form */
+.comment-form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: black;
+    color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0)
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: aqua;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-color: transparent;
+}
+
+.combg {
+    background-color: transparent;
+    height: 100%;
+}
